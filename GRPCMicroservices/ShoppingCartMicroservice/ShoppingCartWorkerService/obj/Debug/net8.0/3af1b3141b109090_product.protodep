@@ -1,0 +1,4 @@
+obj\Debug\net8.0/Product.cs \
+obj\Debug\net8.0/ProductGrpc.cs: C:/Users/yinkaos/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/yinkaos/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/empty.proto\
+ ../../ProductMicroservice/ProductGrpcServer/Protos/product.proto

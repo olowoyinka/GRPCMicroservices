@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "H72OHkvB2i4Z3F7qry5ucB+6cWKxoqOJq5iLP6CcZzk=",
+  "Source": "ShoppingCartGrpcServer",
+  "BasePath": "_content/ShoppingCartGrpcServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductMicroservice", "ProductMicroservice", "{5056A262-0035-4E6B-B1A8-B18B87F6A16F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductGrpcServer", "ProductMicroservice\ProductGrpcServer\ProductGrpcServer.csproj", "{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductGrpcClient", "ProductMicroservice\ProductGrpcClient\ProductGrpcClient.csproj", "{9526EF57-03CF-4786-A107-F28B06FD9C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWorkerService", "ProductMicroservice\ProductWorkerService\ProductWorkerService.csproj", "{4BD8D29B-2DCC-4414-A8B1-24DAC9149620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShoppingCartMicroservice", "ShoppingCartMicroservice", "{505748F8-7165-489D-B87F-E2325E42030A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountMicroservice", "DiscountMicroservice", "{09663D14-3C70-4DF9-9F09-50D10EAD16BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountGrpcServer", "DiscountMicroservice\DiscountGrpcServer\DiscountGrpcServer.csproj", "{8627C038-3F05-4B3F-9BC0-AD872E4E286C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServerMicroservice", "IdentityServerMicroservice", "{A1C3591C-C3FA-4CE1-8C22-768390C207C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServerMicroservice\IdentityServer\IdentityServer.csproj", "{ADFF2BC6-7718-4902-BD48-F37E763F7396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartGrpcServer", "ShoppingCartMicroservice\ShoppingCartGrpcServer\ShoppingCartGrpcServer.csproj", "{BF9A4A25-6706-4844-8F2A-F74A23742320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartWorkerService", "ShoppingCartMicroservice\ShoppingCartWorkerService\ShoppingCartWorkerService.csproj", "{FCA8E292-28E8-41E4-9AE1-B9774C913D0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9526EF57-03CF-4786-A107-F28B06FD9C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9526EF57-03CF-4786-A107-F28B06FD9C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9526EF57-03CF-4786-A107-F28B06FD9C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9526EF57-03CF-4786-A107-F28B06FD9C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD8D29B-2DCC-4414-A8B1-24DAC9149620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD8D29B-2DCC-4414-A8B1-24DAC9149620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD8D29B-2DCC-4414-A8B1-24DAC9149620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD8D29B-2DCC-4414-A8B1-24DAC9149620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8627C038-3F05-4B3F-9BC0-AD872E4E286C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8627C038-3F05-4B3F-9BC0-AD872E4E286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8627C038-3F05-4B3F-9BC0-AD872E4E286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8627C038-3F05-4B3F-9BC0-AD872E4E286C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFF2BC6-7718-4902-BD48-F37E763F7396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFF2BC6-7718-4902-BD48-F37E763F7396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFF2BC6-7718-4902-BD48-F37E763F7396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFF2BC6-7718-4902-BD48-F37E763F7396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9A4A25-6706-4844-8F2A-F74A23742320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9A4A25-6706-4844-8F2A-F74A23742320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9A4A25-6706-4844-8F2A-F74A23742320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9A4A25-6706-4844-8F2A-F74A23742320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA8E292-28E8-41E4-9AE1-B9774C913D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA8E292-28E8-41E4-9AE1-B9774C913D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA8E292-28E8-41E4-9AE1-B9774C913D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA8E292-28E8-41E4-9AE1-B9774C913D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A40F7FE3-D791-4FD5-A1D9-A7C6E52E456F} = {5056A262-0035-4E6B-B1A8-B18B87F6A16F}
+		{9526EF57-03CF-4786-A107-F28B06FD9C59} = {5056A262-0035-4E6B-B1A8-B18B87F6A16F}
+		{4BD8D29B-2DCC-4414-A8B1-24DAC9149620} = {5056A262-0035-4E6B-B1A8-B18B87F6A16F}
+		{8627C038-3F05-4B3F-9BC0-AD872E4E286C} = {09663D14-3C70-4DF9-9F09-50D10EAD16BF}
+		{ADFF2BC6-7718-4902-BD48-F37E763F7396} = {A1C3591C-C3FA-4CE1-8C22-768390C207C5}
+		{BF9A4A25-6706-4844-8F2A-F74A23742320} = {505748F8-7165-489D-B87F-E2325E42030A}
+		{FCA8E292-28E8-41E4-9AE1-B9774C913D0A} = {505748F8-7165-489D-B87F-E2325E42030A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEEBBC53-C8F2-4DEB-AE94-F06D63E9AD1C}
+	EndGlobalSection
+EndGlobal

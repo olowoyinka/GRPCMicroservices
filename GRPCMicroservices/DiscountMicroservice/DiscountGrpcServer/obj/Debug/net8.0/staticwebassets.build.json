@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ua0x39rmTOQZwDJNsEFHxPvLwhTYNKZwUWxEvpGyiJA=",
+  "Source": "DiscountGrpcServer",
+  "BasePath": "_content/DiscountGrpcServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
